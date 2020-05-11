@@ -1,0 +1,38 @@
+@media (max-width:992px) {
+  .masthead h1 {
+    font-size: 2.2em;
+  }
+}
+
+@media (min-width:992px) {
+  .masthead h1 {
+    font-size: 48px;
+  }
+}
+
+.content-section {
+  padding-top: 2.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.col-lg-10.mx-auto {
+  /*font-size: 1.14em;*/
+}
+
+.bg-dark {
+  background-color: rgba(52,58,64,0)!important;
+}
+
+@media (min-width:768px) {
+  .navbar-expand-md .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+}
+
+.collapse:not(.show) {
+  display: block;
+}
+
