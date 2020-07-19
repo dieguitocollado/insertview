@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-Roman.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-Bold.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-BoldItalic.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-Italic.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-Light.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+

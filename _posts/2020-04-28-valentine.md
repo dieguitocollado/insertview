@@ -4,12 +4,12 @@ author: "Valentine Bridgeman"
 layout: post
 date: 2020-04-28 02:40:48 +0000
 category: issue1
-videobg: /assets/bg/issue1/lizzie.mp4
-bgurl: /assets/img/bg/issue1/sunrise2.jpg
+cover: /assets/img/bg/issue1/onceupon.jpg
+bgurl: /assets/img/bg/issue1/onceupon.jpg
 paddingtop: "35px"
 ---
 
-<p id="first-paragraph" style="font-size: larger;left: 15%;padding-top: 25px;">Once Upon a Time in Hollywood had all the ingredients to be a
+<p id="first-paragraph">Once Upon a Time in Hollywood had all the ingredients to be a
 near-perfect film. Yet, while the overall dish still tastes pretty good,
 it can feel a bit like a great meal served lukewarm. I can't help but
 get the sense that Tarantino was so confident in the appeal and intrigue
