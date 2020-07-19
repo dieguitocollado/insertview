@@ -84,7 +84,7 @@
                  <a href="{{ post.url | relative_url }}" style="text-decoration: none;"><div class="col-md-12 offset-xl-0"  style="display: flex; height: 300px;margin-top: 1rem; overflow: hidden;">
 				 <picture>
 				<source type="image/webp" srcset="{{ post.bgurl | relative_url }}.webp" >
-				<img style="width: 100%; height: auto;" src="{{ post.bgurl | relative_url }}.jpg"/>
+				<img style="width: 100%; height: auto;" src="{{ post.bgurl | relative_url }}.jpg" loading="lazy" alt="{{ post.title | escape }} - {{ post.author | escape }}" />
 				</picture>
 				 </a>
 				<div class="container my-auto contents" style="z-index: 2;margin:0 auto;">
