@@ -15,8 +15,6 @@
 .article-clean {
   color: {{ page.fontcolour | escape }} !important;
   background-color: {{ page.bgcolour | escape }} !important;
-  /*font-family: 'Lora', serif;*/
-  /*font-size: 14px;*/
 }
 
 h2 {
@@ -45,7 +43,12 @@ font-family: 'Nitti Grotesk', sans-serif;
 	<div class="row article-header" style="max-width: 80%">
 	
                 <div class="col-md-6" data-mh="article-header">
-				<img src="{{ page.cover | escape }}">
+				<img src="">
+				
+				<picture>
+				<source type="image/webp" srcset="{{ page.cover | escape }}.webp" >
+				<img src="{{ page.cover | escape }}.jpg" loading="lazy" alt="{{ page.title | escape }} - {{ page.author | escape }}"/>
+				</picture>
 				</div>
 				<div class="col-md-6 col-header-text" data-mh="article-header">
 				<div class="title-header desktop  d-md-block" style="display: flex; flex: 1 1 60%;">
