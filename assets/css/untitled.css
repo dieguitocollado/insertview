@@ -425,6 +425,7 @@ a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	flex: 0 0 60%;
+	align-self: center;
 	
 }
 
