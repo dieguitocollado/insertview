@@ -228,16 +228,6 @@ figcaption {
   transition: fill .4s ease;
 }
 
-.icon:hover ~ .slide-in-top {
-  /*background: #ccc;*/
-  transition: 0.5s -webkit-filter ease;
-  /*transition: 0.5s filter ease;*/
-  /*-webkit-transition: 0.5s -webkit-filter ease;*/
-  /*-moz-transition: 0.5s -moz-filter ease;*/
-  /*-ms-transition: 0.5s -ms-filter ease;*/
-  /*-o-transition: 1s -o-filter linear;*/
-  filter: blur(1rem);
-}
 
 #icon2 {
 	    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
@@ -431,6 +421,21 @@ a:hover {
   color: #1a3d6e;
 }
 
+.col-md-6 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 0 60%;
+	
+}
+
+.byline {
+	flex: 1 1 70%;
+	left: 20%;
+
+}
+
+
+
 @media (min-width:1200px) {
  .col-main-page-content {
   margin-left:6.33333%;
@@ -439,6 +444,9 @@ a:hover {
   flex:0 0 93.66667%;
   max-width:93.66667%
  }
+ .byline {
+	 font-size: 48px; 
+	 }
 }
 .no-gutter {
  margin-left:0;
@@ -523,7 +531,10 @@ h1.title {
  display:block;
  letter-spacing:-1px;
  font-size:36px;
- margin-bottom:0
+ margin-bottom: 0;
+ 	padding-top: 30px;
+padding-bottom: 10px;
+left: 20%;
 }
 @media (min-width:768px) {
  h1.title {
@@ -533,7 +544,7 @@ h1.title {
 }
 @media (min-width:992px) {
  h1.title {
-  font-size:54px
+  font-size:72px
  }
 }
 h1.heading-xl {
@@ -562,12 +573,15 @@ h2.text-uppercase.heading-small {
  font-size:23px;
  line-height:28px
 }
+
 .h3,
 h3 {
  margin:0;
  padding:0;
  font-size:26px;
  line-height:31px
+ 	padding-top: 30px;
+padding-bottom: 10px;
 }
 .h4,
 h4 {

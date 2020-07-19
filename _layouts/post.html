@@ -6,15 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - insert:view</title>
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
 	    <link rel="stylesheet" href="/assets/css/ElDorado.css">
 	<link rel="stylesheet" href="/assets/css/NittiGrotesk.css">
-    <link rel="stylesheet" href="/assets/css/WilliamsCaslonText.css">
     <link rel="stylesheet" href="/assets/fonts/font-awesome.min.css">
-	<link rel="stylesheet" href="/assets/css/Cotoris.css">
-    <link rel="stylesheet" href="/assets/css/Header---Apple.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="/assets/css/untitled.css">
 <style>
@@ -25,15 +19,12 @@
   /*font-size: 14px;*/
 }
 
-h1,h2,h3,h4 {
-padding-top: 30px;
-padding-bottom: 10px;
-left: 28%;
-font-family: 'CotorisHeavy', serif;
+h2 {
+width: 50%;
+left: 25%;
+position: relative;
+font-family: 'Nitti Grotesk', sans-serif;
 }
-
-
-
 </style>
 
 </head>
@@ -57,9 +48,9 @@ font-family: 'CotorisHeavy', serif;
 				<img src="{{ page.cover | escape }}">
 				</div>
 				<div class="col-md-6 col-header-text" data-mh="article-header">
-				<div class="title-header desktop  d-none d-md-block">
-				<h1 class="mb-1 title article-title" style="background: white; display: inline; font-family: 'Eldorado Text', serif; font-size: 72px; letter-spacing: 2px;text-align: left; color: black;">{{ page.title | escape }}</h1></div>
-            <div class="byline"><h3 class="mb-5 byline" style="display: inline;   background: linear-gradient(180deg, rgba(255,255,255,0) 30%, #fff 30%); display: inline; line-height: 1.5; text-align: left; font-family: 'Nitti Grotesk', serif; font-weight: bold; letter-spacing: 2px;font-size: 48px;">{{ page.author | escape }}</h3> </div></div>
+				<div class="title-header desktop  d-md-block" style="display: flex; flex: 1 1 60%;">
+				<h1 class="mb-1 title article-title" style="background: white; display: inline; font-family: 'Eldorado Text', serif; letter-spacing: 2px;text-align: left; color: black;">{{ page.title | escape }}</h1></div>
+            <div class="byline"><h3 class="mb-5 byline" style="display: inline;   background: linear-gradient(180deg, rgba(255,255,255,0) 30%, #fff 30%); display: inline; line-height: 1.5; text-align: left; font-family: 'Nitti Grotesk', serif; font-weight: bold; letter-spacing: 2px;">{{ page.author | escape }}</h3> </div></div>
 				
 				
         <div class="container my-auto text-center " style="z-index: 2; ">
@@ -84,13 +75,9 @@ font-family: 'CotorisHeavy', serif;
 
 </article>
 
+{% include footer.html %}
 	
-    <footer class="footer text-center">
-        <div style="width: 50%;display: block;margin-left: auto;margin-right: auto;">
-            <h1><br>Receive every issue of insert:view through email.<br></h1><input type="email" style="width: 30%;"></div>
-        <div class="container">
-            <p class="text-muted mb-0 small">Copyright &nbsp;© insert:view 2020</p>
-        </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a></footer>
+
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="/assets/js/bs-init.js"></script>
