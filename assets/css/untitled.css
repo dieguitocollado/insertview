@@ -1,3 +1,91 @@
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-Roman.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-Bold.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-BoldItalic.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-Italic.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eldorado Text';
+    src: url('/assets/fonts/EldoradoText-Light.woff2') format('woff2'),
+        url('/assets/fonts/EldoradoText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nitti Grotesk';
+    src: url('/assets/fonts/NittiGrotesk-SemiLight.woff2') format('woff2'),
+        url('/assets/fonts/NittiGrotesk-SemiLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nitti Grotesk';
+    src: url('/assets/fonts/NittiGrotesk-Medium.woff2') format('woff2'),
+        url('/assets/fonts/NittiGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nitti Grotesk';
+    src: url('/assets/fonts/NittiGrotesk-Bold.woff2') format('woff2'),
+        url('/assets/fonts/NittiGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nitti Grotesk';
+    src: url('/assets/fonts/NittiGrotesk-Normal.woff2') format('woff2'),
+        url('/assets/fonts/NittiGrotesk-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@media (max-width:700px) {
+	.icon {
+		width: 380px;
+	}
+}
+
 @media (max-width:992px) {
   .masthead h1 {
     font-size: 2.2em;
@@ -9,6 +97,7 @@
     font-size: 48px;
   }
 }
+
 
 .container {
   margin: 0 auto;
@@ -36,6 +125,44 @@
   }
 }
 
+.article-header-txt {
+	    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+h1.articleheader {
+     padding-top: 0.83em; font-size: 1.975rem; font-family: 'Eldorado Text'; font-weight: bold; letter-spacing:-1px;text-align:center;color:black; flex: 0 0 auto;max-width: 60%;	
+}
+h2.articleheader {
+
+font-size: 1.675rem!important;
+font-family: 'Nitti Grotesk', sans-serif!important;
+flex: 0 0 auto!important;
+}
+h3.articleheader {
+	font-size: 1.975rem; text-align: left; font-family: 'Nitti Grotesk'; flex: 0 0 auto;
+}
+
+.firstimg {
+	  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+img.firstimg {
+	max-width: 50%;
+	flex: 0 0 auto;
+}
+
+
+
 .collapse:not(.show) {
   display: block;
 }
@@ -44,7 +171,7 @@
   color: #020202;
   background-color: #fff;
   line-height: 1.4;
-  font-size: 25px;
+  font-size: 21px;
 
 }
 
@@ -94,6 +221,12 @@
 }
 
 @media (min-width:768px) {
+	h1.articleheader {
+		font-size: 4rem;
+	}
+	h2.articleheader {
+		font-size: 1.975rem!important; 
+	}
   .article-clean .text p {
     font-size: 1.6rem;
   }
@@ -153,9 +286,19 @@ figure {
 
 }
 
+.figurebig {
+	  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
 figcaption {
   padding: 0.5em;
-  left: 10%;
+  width: 30%;
+  text-align: justify;
+  font-family: 'Nitti Grotesk';
 }
 
 .cont {
@@ -209,15 +352,36 @@ figcaption {
   
 }
 
+.primero {
+	min-height: 30rem;
+position: relative;
+width: 100%;
+height: auto;
+padding-top: 8rem;
+padding-bottom: 8rem;
+background-size: cover;
+	overflow: hidden;
+	height: 100vh;
+	background-image: url(http://localhost:4000/assets/img/issue1/portrait.webp)
+}
+
+.issue {
+	font-family: 'Nitti Grotesk', Arial, sans-serif; font-weight: bold; color: black; text-align: center; font-size: 56px;
+}
+
+.tablecont {
+	font-family: 'Nitti Grotesk', sans-serif; font-weight: bold; letter-spacing: 2px;color: black; text-align: center;
+}
+
+.titulo {
+	flex: 0 0 auto!important; font-size: 1.675rem!important;  padding-top: 12px!important; font-family: 'Nitti Grotesk'!important; font-weight: bold!important; letter-spacing:-1px!important; color:white;z-index: 4;
+}
+
 .icon {
   fill: white;
-  display: block;
-  margin: auto;
-  position: absolute;
-  width: 50%;
-  left: 25%;
-  top: 50%;
+  width: 600px;
   transition: fill .4s ease;
+  flex: 0 0 auto;
 }
 
 .icon:hover {
@@ -235,10 +399,9 @@ figcaption {
 }
 
 #icon3 {
-	    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
-    filter: drop-shadow(4px 6px 7px rgba(0,0,0,0.5));
+
     transition: fill .4s ease;
-	fill: white;
+	fill: black;
 	display: flex;
 	flex-direction: row;
 	padding: .5rem 1rem;
@@ -398,7 +561,7 @@ font-size: 20px;
 }
 
 #first-paragraph:first-letter {
-  color: #1d809f;
+  color: black;
   float: left;
   font-size: 5em;
   margin: 0 .2em 0 0;
@@ -434,6 +597,17 @@ a:hover {
 
 }
 
+.logos {
+	  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+    margin: 0 auto;
+
+	
+}
 
 
 @media (min-width:1200px) {
@@ -542,7 +716,30 @@ left: 20%;
   margin-bottom:15px
  }
 }
+
+h2[id^="titulos_"] {
+	padding-top: 1.4rem;
+width: 50%;
+left: 25%;
+position: relative;
+font-family: 'Nitti Grotesk', sans-serif;
+
+}
+
+img.firstimg {
+	max-width: 100%;
+}
 @media (min-width:992px) {
+	
+	img.firstimg {
+		max-width: 50%;
+	}
+	
+	img.inlineimg {
+	max-width: 30%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
  h1.title {
   font-size:72px
  }
@@ -622,6 +819,7 @@ blockquote {
  padding-bottom:10px
 }
 @media (min-width:992px) {
+	
  blockquote {
   padding-left:2em;
   margin:30px 0

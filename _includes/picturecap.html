@@ -1,0 +1,8 @@
+{% assign img = include.img %}
+<figure class="figurebig">
+<picture class="firstimg inlineimg">
+				<source type="image/webp" srcset="{{ img }}.webp" >
+<img src="{{ img }}.{{ include.ext }}" class="firstimg inlineimg" />
+				</picture>
+  <figcaption>{{ include.capt }}</figcaption>
+</figure>
