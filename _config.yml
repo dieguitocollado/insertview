@@ -23,7 +23,6 @@ author: insertview
 email: uclfilmsociety@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 UCL Film and TV society's magazine.
-
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://iv.diegocollado.net" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:categories/:title
