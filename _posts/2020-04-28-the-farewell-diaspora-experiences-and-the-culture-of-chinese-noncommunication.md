@@ -4,8 +4,8 @@ title: "The Farewell, Diaspora Experiences, and the Culture of Chinese
 author: "Xinyi Wang"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
-cat: "Film Essay"
+tag: issue1
+category: essays
 cover: /assets/img/issue1/xin/1
 bgurl: /assets/img/issue1/xin/1
 ---

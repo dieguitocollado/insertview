@@ -3,9 +3,10 @@ title: "Acceptance, Loud Conversations, and Everything In-Between: 'Sex Educatio
 author: "Gabriele Sungailaite"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
-cover: /assets/img/bg/issue1/sexed
-bgurl: /assets/img/bg/issue1/sexed
+tag: issue1
+category: reviews
+cover: /assets/img/issue1/gabriele/1
+bgurl: /assets/img/issue1/gabriele/1
 paddingtop: "35px"
 ---
 

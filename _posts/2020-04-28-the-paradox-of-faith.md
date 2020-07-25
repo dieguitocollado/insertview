@@ -3,16 +3,17 @@ title: "The Paradox of Faith"
 author: "Amelia Deering"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
-cover: /assets/img/bg/issue1/hiddenlife1
-bgurl: /assets/img/bg/issue1/hiddenlife2
+tag: issue1
+category: essays
+cover: /assets/img/issue1/amelia/1
+bgurl: /assets/img/issue1/amelia/1
 paddingtop: "35px"
 ---
 
 <p id="first-paragraph">Franz Jägerstätter refuses to do what is required of him, brings shame
 upon his family, provokes their persecution, and ultimately entirely
 abandons them. He is also a devout Christian, and was beatified by the
-Catholic Church in 2007. Watching Terrence Malick's *A Hidden Life*
+Catholic Church in 2007. Watching Terrence Malick's <i>A Hidden Life</i>
 (2019), we don't reproach Jägerstätter for his decisions. Instead, he
 simultaneously amazes, perplexes and disconcerts us. He is a Christian
 martyr much like Sir Thomas More in *A Man for All Seasons*, and yet his
@@ -56,6 +57,8 @@ universe. No inexplicable shots of characters wandering away with their
 backs to the camera. That said, there are plenty of voice-overs and the
 usual unshakeable devotion to wide-angle lenses (16mm was the longest
 lens used). It is a Terrence Malick film, after all.
+
+{% include pictureart.html img="/assets/img/issue1/amelia/2" ext="jpg" %}
 
 The film's philosophical content draws on the traditions of theistic
 existentialism, fideism and Christian morality. To explain what these
@@ -104,10 +107,10 @@ wholly against More's Catholic faith.
 > charity, modesty, justice and thought, perhaps we must stand fast a
 > little, even at the risk of being heroes.
 
-Meg: But in reason! Haven't you done as much as God can reasonably want?
+>Meg: But in reason! Haven't you done as much as God can reasonably want?
 
-More: Well, finally it isn't a matter of reason. Finally, it's a matter
-of love.
+>More: Well, finally it isn't a matter of reason. Finally, it's a matter
+>of love.
 
 Jägerstätter is not as erudite nor as eloquent as More, but they both
 possess this unconditional faith in God that is almost impossible to
@@ -136,6 +139,8 @@ sacrificing his son as per God's orders. Indeed, it involves a
 'teleological suspension of the ethical.' This is Kierkegaard's fancy
 way of saying that Abraham has complete confidence in God's commands,
 despite their ethically suspicious nature.
+
+{% include pictureart.html img="/assets/img/issue1/amelia/3" ext="jpg" %}
 
 Kierkegaard does not wish to say that all Christians live at this
 superior stage of existence. In fact, he fiercely condemned the church
@@ -203,18 +208,21 @@ God, from whom nothing can be hidden. No overt action nor covert thought
 escapes God; Jägerstätter, along with every other human to exist, does
 not and cannot lead a \'hidden life' from God.
 
-[Sources/Further Reading]{.underline}
 
-Kierkegaard, Søren. *Attack Upon Christendom*.
+<br>
 
-Kierkegaard, Søren. *Either/Or.*
+_Sources/Further Reading_
 
-Kierkegaard, Søren. *Fear and Trembling.*
+>Kierkegaard, Søren. *Attack Upon Christendom*.
 
-*New International Version Bible*. Colossians 3:3.
+>Kierkegaard, Søren. *Either/Or.*
 
-Amesbury, Richard, \"Fideism\", *The Stanford Encyclopedia of
-Philosophy* (Fall 2017 Edition), Edward N. Zalta (ed.).
+>Kierkegaard, Søren. *Fear and Trembling.*
 
-McDonald, William, \"Søren Kierkegaard\", *The Stanford Encyclopedia of
-Philosophy* (Winter 2017 Edition), Edward N. Zalta (ed.).
+>*New International Version Bible*. Colossians 3:3.
+
+>Amesbury, Richard, \"Fideism\", *The Stanford Encyclopedia of
+>Philosophy* (Fall 2017 Edition), Edward N. Zalta (ed.).
+
+>McDonald, William, \"Søren Kierkegaard\", *The Stanford Encyclopedia of
+>Philosophy* (Winter 2017 Edition), Edward N. Zalta (ed.).

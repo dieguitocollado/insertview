@@ -3,7 +3,8 @@ title: "Glamorous Violence: ‘Once Upon a Time in Hollywood’ Review"
 author: "Valentine Bridgeman"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
+tag: issue1
+category: reviews
 cover: /assets/img/bg/issue1/onceupon
 bgurl: /assets/img/bg/issue1/onceupon
 paddingtop: "35px"

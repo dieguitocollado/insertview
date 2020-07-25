@@ -3,7 +3,8 @@ title: "Cartoons for Adults? 5 Animated Shows Everyone Should Watch"
 author: "Alex Dewing"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
+tag: issue1
+category: listicles
 cover: /assets/img/bg/issue1/garden
 bgurl: /assets/img/bg/issue1/garden
 paddingtop: "35px"

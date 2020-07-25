@@ -1,29 +1,12 @@
-<!DOCTYPE html>
-<html>
+	  {% include head.html %}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - insert:view</title>
-	<link rel="stylesheet" href="/assets/css/untitled.css">
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-<style>
-.article-clean {
-  color: {{ page.fontcolour | escape }} !important;
-  background-color: {{ page.bgcolour | escape }} !important;
-}
-
-</style>
-
-</head>
 
 <body id="page-top">
     
 	  {% include navbar2.html %}
 
 	
-	<article class="post" lang="{{ page.lang | default: site.lang | default: "en" }}" itemscope itemtype="http://schema.org/BlogPosting" >
+	<article class="page" lang="{{ page.lang | default: site.lang | default: "en" }}" itemscope itemtype="http://schema.org/BlogPosting" >
 
     <div class="post-content" itemprop="articleBody">     
     
@@ -32,16 +15,12 @@
 	
     <header class="d-flex article-header-txt" style="overflow: hidden;background-color: white;">
 		<h1 class="mb-1 articleheader" >{{ page.title | escape }}</h1>
-    <h2 class="mb-5 articleheader">{{ page.author | escape }}</h3>
-<picture class="firstimg">
-				<source type="image/webp" srcset="{{ page.cover | escape }}.webp" >
-				<img src="{{ page.cover | escape }}.jpg" loading="lazy" class="firstimg" alt="{{ page.title | escape }} - {{ page.author | escape }}"/>
-				</picture>
+  
     </header>
 		
 	
 	
-    <div class="text-justify article-clean" data-aos="fade" id="art" style="background-position: center;background-size: cover; padding-top: {{ page.paddingtop | escape }};">
+    <div class="text-justify article-clean" data-aos="fade" id="art" style="font-family: 'Nitti Grotesk', sans-serif; background-position: center;background-size: cover; padding-top: {{ page.paddingtop | escape }};">
 	{{ content }}
         
 	

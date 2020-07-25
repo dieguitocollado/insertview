@@ -3,9 +3,10 @@ title: "The Imprecise Beauty of ‘An Elephant Sitting Still’: Review"
 author: "Sean Warmington"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
-cover: /assets/img/bg/issue1/elephant/1
-bgurl: /assets/img/bg/issue1/elephant/1
+tag: issue1
+category: reviews
+cover: /assets/img/issue1/sean/1
+bgurl: /assets/img/issue1/sean/1
 paddingtop: "35px"
 ---
 
@@ -42,6 +43,8 @@ shares with his son, daughter-in-law, and beloved granddaughter. The
 four central characters' paths weave in and out of each other across the
 course of this day, each drawn more and more to the powerful stoicism of
 the mythical Manzhouli elephant.
+
+{% include pictureart.html img="/assets/img/issue1/sean/2" ext="jpg" %}
 
 This was director Hu's first and last film. He took his own life at the
 age of 29, shortly after the film wrapped. While this film must be

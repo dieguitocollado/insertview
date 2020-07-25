@@ -3,7 +3,8 @@ title: "Salad Days: Revisiting the Teenage Truths of 'My So-Called Life'"
 author: "Sofía Kourous Vázquez"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
+tag: issue1
+category: essays
 cover: /assets/img/issue1/sofia/1
 bgurl: /assets/img/issue1/sofia/1
 paddingtop: "35px"
@@ -155,17 +156,7 @@ So-Called Life* opened these up by breaking down the constructed
 barriers between the teenage bubble and the wider world that suspends
 it.
 
-**QUOTES: \*\*don't put in digital draft\*\***
-
-"I cannot bring myself to eat a well-balanced meal in front of my
-mother. It just means too much to her. I mean, if you stop to think
-about, like, chewing --- what it really is --- how people just do it,
-like, in public."
-
-"It just seems like you agree to have a certain personality or
-something. For no reason. Just to make things easier for everyone. But
-when you think about it, I mean, how do you know it's even you?"
+<br>
 
 [^1]: Joseph F. Kett (2003) Reflections on the history of adolescence in
-    America, The History of the Family, 8:3, 355-373, DOI:
-    [[10.1016/S1081-602X(03)00042-3]{.underline}](https://doi.org/10.1016/S1081-602X(03)00042-3)
+    America, The History of the Family, 8:3, 355-373.

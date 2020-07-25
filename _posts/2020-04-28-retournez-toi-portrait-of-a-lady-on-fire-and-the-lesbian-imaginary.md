@@ -3,9 +3,10 @@ title: "«Retournez-toi»: Portrait of a Lady on Fire and the lesbian imaginary"
 author: "Udoka Maya Okonkwo"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
-cover: /assets/img/bg/issue1/portrait
-bgurl: /assets/img/bg/issue1/portrait
+tag: issue1
+category: essays
+cover: /assets/img/issue1/udoka/1
+bgurl: /assets/img/issue1/udoka/1
 paddingtop: "35px"
 ---
 
@@ -56,6 +57,8 @@ Exactement la même place.» ("We are in the same place. Exactly the same
 place,") before describing Marianne's traits with the accuracy of an old
 master.[^2]
 
+{% include pictureart.html img="/assets/img/issue1/udoka/2" ext="jpg" %}
+
 The first eerily incomplete wedding portrait highlights the sinister
 potential of the nonreciprocal gaze. The painted wife flattens the
 humanity of the woman that will occupy that space. The eighteenth
@@ -101,7 +104,9 @@ and Marianne smile at each other for the first time, across flame.
 Héloïse catches fire, but they *both* succumb to the world-shaking
 implications of being truly seen.
 
-In an interview with robertebert.com, Sciamma describes *Portrait* as a
+{% include pictureart.html img="/assets/img/issue1/udoka/3" ext="jpg" %}
+
+In an interview with [robertebert.com](robertebert.com), Sciamma describes *Portrait* as a
 specifically "lesbian imaginary." Why, as a friend asked upon my coming
 out to her, doesn't queer suffice? This is a question rarely asked of
 gay men. The avoidance of the word underscores its radicalism; there is
@@ -165,6 +170,8 @@ of our lives. Marianne is the woman straddling worlds, yet Héloïse must
 ask her to look. "Remember this", she seems to say, restaging the scene
 that evening. Paint.
 
+{% include pictureart.html img="/assets/img/issue1/udoka/4" ext="jpg" %}
+
 ***"Do all lovers feel like they're inventing something?"***
 
 Art and love are intertwined, as mutually constitutive processes. In an
@@ -214,15 +221,17 @@ time.
 
 *Works cited:*
 
-Ginzberg, Ruth. 1992. Audre Lorde\'s (Nonessentialist) Lesbian Eros.
-*Hypatia*, 7:4, Lesbian Philosophy (Autumn, 1992), pp. 73-90.
+>Ginzberg, Ruth. 1992. Audre Lorde\'s (Nonessentialist) Lesbian Eros.
+>*Hypatia*, 7:4, Lesbian Philosophy (Autumn, 1992), pp. 73-90.
 
-Lorde, Audre. 1984. Uses of the erotic: the erotic as power.
+>Lorde, Audre. 1984. Uses of the erotic: the erotic as power.
 
-Telfer, Tori. 2018. How Do We Define the Female Gaze in 2018? *Vulture*,
-August 2 2018.
+>Telfer, Tori. 2018. How Do We Define the Female Gaze in 2018? *Vulture*,
+>August 2 2018.
 
-Wittig, Monique. 1975. The Lesbian Body.
+>Wittig, Monique. 1975. The Lesbian Body.
+
+---
 
 [^1]: Extraordinary painters working in the seventeenth and eighteenth
     centuries respectively. I recommend Kauffman's *Self-portrait by the

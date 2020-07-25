@@ -3,13 +3,14 @@ title: "No Winners, Only Losers: 'Parasite' Review"
 author: "Sang Park"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
-cover: /assets/img/bg/issue1/parasite3
-bgurl: /assets/img/bg/issue1/parasite3
+tag: issue1
+category: reviews
+cover: /assets/img/issue1/sang/1
+bgurl: /assets/img/issue1/sang/1
 paddingtop: "35px"
 ---
 
-<p id="first-paragraph">It would be easy to label Bong Joon Ho's *Parasite* as just a mere
+<p id="first-paragraph">It would be easy to label Bong Joon Ho's <i>Parasite</i> as just a mere
 critique of today's society which enables and perpetuates an
 unprecedented level of inequality. After all, inequality and social
 mobility -- or lack thereof -- are issues that do not discriminate based
@@ -17,7 +18,7 @@ on nationality. Poverty and wealth coexist outside the tube stations of
 London's upscale neighbourhoods and at the street food stands of Seoul
 operated by downtrodden Koreans and enjoyed by a crowd blissfully
 oblivious to their struggles. Perhaps, it is the prevalence and severity
-of such issues portrayed in *Parasite* that have helped the film reach a
+of such issues portrayed in <i>Parasite</i> that have helped the film reach a
 truly global audience.</p>
 
 We are introduced to the Kims in the opening scene of the film. Living

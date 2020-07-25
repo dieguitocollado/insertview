@@ -3,7 +3,8 @@ title: "Childhood Sweetheart: A Look at My Favourite Hilary Duff Movies"
 author: "Fatima Jafar"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
+tag: issue1
+category: listicles
 cover: /assets/img/bg/issue1/lizzie
 bgurl: /assets/img/bg/issue1/lizzie
 

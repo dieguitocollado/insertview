@@ -373,6 +373,31 @@ background-size: cover;
 	font-family: 'Nitti Grotesk', sans-serif; font-weight: bold; letter-spacing: 2px;color: black; text-align: center;
 }
 
+.categorycont {
+	font-family: 'Nitti Grotesk', sans-serif; font-weight: bold; color: black; text-align: left;
+}
+.categorycont:hover {
+	color: blue;
+}
+
+.indexitms {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.cat {
+	flex: 0 0 auto;
+	padding-left: 0.7rem;
+	padding-right: 0.7rem;
+	font-family: 'Eldorado Text';
+}
+
+
+
 .titulo {
 	flex: 0 0 auto!important; font-size: 1.675rem!important;  padding-top: 12px!important; font-family: 'Nitti Grotesk'!important; font-weight: bold!important; letter-spacing:-1px!important; color:white;z-index: 4;
 }
@@ -732,11 +757,13 @@ img.firstimg {
 @media (min-width:992px) {
 	
 	img.firstimg {
-		max-width: 50%;
+		width: 992px;
+		height: auto;
 	}
 	
 	img.inlineimg {
-	max-width: 30%;
+	width: 992px;
+			height: auto;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
@@ -851,5 +878,14 @@ blockquote {
   top:15px;
   padding-right:15px
  }
+}
+
+.footnotes {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 

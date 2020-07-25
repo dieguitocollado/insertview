@@ -3,7 +3,8 @@ title: "The Era of Climate Change Cinema"
 author: "Kirese Narinesingh"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
+tag: issue1
+category: essays
 cover: /assets/img/issue1/kirese/1
 bgurl: /assets/img/issue1/kirese/1
 paddingtop: "35px"

@@ -3,9 +3,10 @@ title: "Boiling Down the Bunny"
 author: "Xara Zabihi Dutton"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
-cover: /assets/img/bg/issue1/bunny2
-bgurl: /assets/img/bg/issue1/bunny
+tag: issue1
+category: essays
+cover: /assets/img/issue1/xara/1
+bgurl: /assets/img/issue1/xara/1
 paddingtop: "35px"
 ---
 
@@ -14,7 +15,7 @@ good and bad fortune, bearer of help and hindrance. Frequently appearing in the 
 of a rabbit, the púca has been known to manifest, from Killarny to the Bay of Biscay, in
 many guises. This creature from celtic folklore phas made several
 appearances as a rabbit on the dreamscape of the silver screen. The púca
-in Henry Koster's *Harvey* (1950), based on Mary Chase's play of the
+in Henry Koster's <i>Harvey</i> (1950), based on Mary Chase's play of the
 same name, is the on-screen inception of the rabbit motif that audiences
 have chased into 2020.</p>
 
@@ -49,6 +50,8 @@ complexity of the surface world. Carrol's White Rabbit runs through contemporary
 traceable to the tattooed arm of Dujour in *The Matrix* (1999). Neo (Keanu Reeves) is
 instructed to 'Follow the White Rabbit' down the first of a series of tunnels which penetrate
 the nature of his reality.
+
+{% include pictureart.html img="/assets/img/issue1/xara/2" ext="jpg" %}
 
 When the rabbit features as a friend, the enfolding walls of the warren
 are sought as a site of refuge rather than a portal to a fantasy dimension. In *The
@@ -106,6 +109,8 @@ armour to contend with a rabbit? But marginalia often strikes a
 discordant tone with the text it accompanies. Positing the rabbit as the
 mortal enemy of man jibes at the value-systems which reward unsolicited
 acts of violence with honour.
+
+{% include pictureart.html img="/assets/img/issue1/xara/3" ext="jpg" %}
 
 While they say that dogs are man's best friend, rabbits are more often
 cast in this role on screen -- in spite of their homicidal tendencies.

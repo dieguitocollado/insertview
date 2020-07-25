@@ -3,9 +3,10 @@ title: "A Two-Hour Anxiety Attack: ‘Uncut Gems’ Review"
 author: "Noah Eckstein"
 layout: post
 date: 2020-04-28 02:40:48 +0000
-category: issue1
-cover: /assets/img/bg/issue1/gems
-bgurl: /assets/img/bg/issue1/gems
+tag: issue1
+category: reviews
+cover: /assets/img/issue1/noah/1
+bgurl: /assets/img/issue1/noah/1
 paddingtop: "35px"
 ---
 

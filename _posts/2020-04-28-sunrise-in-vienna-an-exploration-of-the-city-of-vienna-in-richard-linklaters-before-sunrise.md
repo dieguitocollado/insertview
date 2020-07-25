@@ -3,7 +3,8 @@ title: "Sunrise in Vienna -- an exploration of the city of Vienna in Richard Lin
 author: "Isabella Jakobsen"
 layout: postnoimg
 date: 2020-04-28 02:40:48 +0000
-category: issue1
+tag: issue1
+category: essays
 bgurl: /assets/img/issue1/isabelle/1
 paddingtop: "35px"
 ---
