@@ -82,7 +82,10 @@
 
 @media (max-width:700px) {
 	.icon {
-		width: 380px;
+		width: 90%!important;
+	}
+	.titulo {
+		font-size: 1.375rem !important;
 	}
 }
 
@@ -399,7 +402,7 @@ background-size: cover;
 
 
 .titulo {
-	flex: 0 0 auto!important; font-size: 1.675rem!important;  padding-top: 12px!important; font-family: 'Nitti Grotesk'!important; font-weight: bold!important; letter-spacing:-1px!important; color:white;z-index: 4;
+	flex: 0 0 auto!important; font-size: 1.675rem; padding-top: 12px!important; font-family: 'Nitti Grotesk'!important; font-weight: bold!important; letter-spacing:-1px!important; color:white;z-index: 4;
 }
 
 .icon {
