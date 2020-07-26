@@ -365,7 +365,7 @@ padding-bottom: 8rem;
 background-size: cover;
 	overflow: hidden;
 	height: 100vh;
-	background-image: url(http://localhost:4000/assets/img/issue1/portrait.webp)
+	background-image: url({{ '/assets/img/issue1/portrait.jpg' | absolute_url }})
 }
 
 .issue {
