@@ -355,7 +355,7 @@ figcaption {
   
 }
 
-.primero {
+.webp .primero {
 	min-height: 30rem;
 position: relative;
 width: 100%;
@@ -365,8 +365,13 @@ padding-bottom: 8rem;
 background-size: cover;
 	overflow: hidden;
 	height: 100vh;
+	background-image: url({{ '/assets/img/issue1/portrait.webp' | absolute_url }})
+}
+
+.no-webp .primero {
 	background-image: url({{ '/assets/img/issue1/portrait.jpg' | absolute_url }})
 }
+
 
 .issue {
 	font-family: 'Nitti Grotesk', Arial, sans-serif; font-weight: bold; color: black; text-align: center; font-size: 56px;
