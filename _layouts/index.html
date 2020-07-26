@@ -1,6 +1,6 @@
 	  {% include head.html %}
 
-<body style="background-color: rgb(0,0,0);">
+<body style="background-color: white;">
  <header class="d-flex primero">
 <div class="logos">
 
@@ -10,7 +10,7 @@
     </header>
 	  {% include navbar2.html %}
 
-    <div class="cont" style="background-color: white;">
+    <div class="cont" id="page-top" style="background-color: white;" data-aos="fade">
 	<h1 class="mb-1 issue">ISSUE I</h1>
             <h2 class="mb-5 tablecont">Table of Contents</h3>
 			<div class="indexitms">
@@ -18,7 +18,7 @@
 			<a class="cat js-scroll-trigger" href="#listicles"><h2 class="mb-2 categorycont" id="essay">LISTICLES</H2></a>
 			<a class="cat js-scroll-trigger" href="#reviews"><h2 class="mb-2 categorycont" id="essay">REVIEWS</H2></a>
 			</div>
-		<div class="container items" style="line-height: 1em;">
+		<div class="container items">
 		
 {% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}
@@ -26,19 +26,19 @@
 <div class="row" id="{{category[0] | uri_escape | downcase }}">
 <h2 class="mb-2 categorycont" id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</H2></div>
  {% for post in sorted_posts %}
-           <div class="row" data-tags="{{ post.tags | join: " " }}">
-                 <a href="{{ post.url | relative_url }}" style="text-decoration: none;"><div class="col-md-12 offset-xl-0"  style="display: flex; height: 300px;margin-top: 1rem; overflow: hidden;">
+           <div class="row" data-aos="fade" >
+                 <a href="{{ post.url | relative_url }}" style="text-decoration: none;"><div class="col-md-12 offset-xl-0 postlists">
 				 <picture>
 				<source type="image/webp" srcset="{{ post.bgurl | relative_url }}.webp" >
-				<img style="width: 100%; height: 100%; object-fit: cover;" src="{{ post.bgurl | relative_url }}.jpg" loading="lazy" alt="{{ post.title | escape }} - {{ post.author | escape }}" />
+				<img class="postthumb" src="{{ post.bgurl | relative_url }}.jpg" loading="lazy" alt="{{ post.title | escape }} - {{ post.author | escape }}" />
 				</picture>
 				 </a>
 				<div class="container my-auto contents" style="z-index: 2;margin:0 auto;">
     </div>
 	</div></a>
 	<div class="col-md-12 offset-xl-0 text">
-	 <a href="{{ post.url | relative_url }}" style="text-decoration: none;"><h1 class="text-left mb-1" style="font-size: 1.875rem; padding-top: 12px; font-family: 'Eldorado Text'; font-weight: bold; letter-spacing:-1px;text-align:left;color:black;">{{ post.title | escape }}</h1></a>
-    <h3 class="mb-5" style="font-size: 1.375rem; text-align: left; font-family: 'Nitti Grotesk';">{{ post.author | escape }}</h3>
+	 <a href="{{ post.url | relative_url }}" style="text-decoration: none;"><h1 class="text-left mb-1 posttexts">{{ post.title | escape }}</h1></a>
+    <h3 class="mb-5 postauthor">{{ post.author | escape }}</h3>
 	</div>
 </div>
 	  {% endfor %}	
@@ -46,21 +46,10 @@
 
 	  </div>
 		  </div>
+		  
+		  	  {% include footer.html %}
+
 </body>
 
-<footer>
-<a class="js-scroll-trigger scroll-to-top rounded" href="#cont"><i class="fa fa-angle-up"></i></a>
- <div class="footer" style="width: 100%;">
-        <div class="col" style="height: 111px;background-color: #171717;width: 100%;">
-            <p style="padding-top: 45px;color: rgb(255,255,255);font-family: 'Nitti Grotesk', sans-serif; font-weight: 300; margin-bottom: 0;">© 2020 UCL Film and TV Society</p>
-        </div>
-    </div>
-	 <script src="/assets/js/jquery.min.js"></script>
-            <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-            <script src="/assets/js/bs-init.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-            <script src="/assets/js/stylish-portfolio.js"></script>
-            <script src="/assets/js/scripts.js"></script>
-			</footer>
+
 </html>
