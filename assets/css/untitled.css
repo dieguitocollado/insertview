@@ -365,11 +365,11 @@ padding-bottom: 8rem;
 background-size: cover;
 	overflow: hidden;
 	height: 100vh;
-	background-image: url({{ '/assets/img/issue1/portrait.webp' | absolute_url }})
+	background-image: url(/assets/img/issue1/portrait.webp)
 }
 
 .no-webp .primero {
-	background-image: url({{ '/assets/img/issue1/portrait.jpg' | absolute_url }})
+	background-image: url(/assets/img/issue1/portrait.jpg)
 }
 
 
@@ -596,9 +596,14 @@ font-size: 20px;
 #first-paragraph:first-letter {
   color: black;
   float: left;
-  font-size: 5em;
-  margin: 0 .2em 0 0;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
+
 
 span {
   font-size: 25px;
