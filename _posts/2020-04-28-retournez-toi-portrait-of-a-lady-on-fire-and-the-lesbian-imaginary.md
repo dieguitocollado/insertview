@@ -1,5 +1,5 @@
 ---
-title: "«Retournez-toi»: Portrait of a Lady on Fire and the lesbian imaginary"
+title: "Retournez-toi: ‘Portrait of a Lady on Fire’ and the Lesbian Imaginary"
 author: "Udoka Maya Okonkwo"
 layout: post
 date: 2020-04-28 02:40:48 +0000

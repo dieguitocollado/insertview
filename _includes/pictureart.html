@@ -1,5 +1,5 @@
 {% assign img = include.img %}
 <picture class="firstimg inlineimg">
     <source type="image/webp" srcset="{{ img }}.webp" >
-    <img src="{{ img }}.{{ include.ext }}" class="firstimg inlineimg" alt="{{ page.title | escape }} - {{ page.author | escape }}" />
+    <img src="{{ img }}.{{ include.ext }}" class="firstimg inlineimg" alt="{{ page.title | escape }} - {{ page.author | escape }}" style="{{ include.style }}" />
 </picture>

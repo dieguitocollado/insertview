@@ -1,5 +1,5 @@
 ---
-title: "Boiling Down the Bunny"
+title: "Boiling Down The Bunny: A Shaggy Cinematic History"
 author: "Xara Zabihi Dutton"
 layout: post
 date: 2020-04-28 02:40:48 +0000

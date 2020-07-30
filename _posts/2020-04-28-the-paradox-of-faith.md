@@ -1,5 +1,5 @@
 ---
-title: "The Paradox of Faith"
+title: "The Paradox of Faith: Kierkegaard and Terrence Malick’s ‘A Hidden Life’"
 author: "Amelia Deering"
 layout: post
 date: 2020-04-28 02:40:48 +0000

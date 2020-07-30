@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
 	<link rel="stylesheet" href="{{ '/assets/css/untitled.css' | absolute_url }}">
     <link rel="stylesheet" href="{{ '/assets/bootstrap/css/bootstrap.min.css' | absolute_url }}">
@@ -31,6 +31,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {% seo %}
-
+  
+  <script>
+  Modernizr.on('webp', function (result) {
+    if (result) {
+	      // supported
+    } else {
+	      // not-supported
+    }
+  });
+</script>
+  
+    <noscript>
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
 </head>
 

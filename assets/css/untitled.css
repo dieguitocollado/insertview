@@ -119,6 +119,7 @@
   background-color: rgba(52,58,64,0)!important;
 }
 
+
 @media (min-width:768px) {
   .navbar-expand-md .navbar-collapse {
     display: -ms-flexbox!important;
@@ -223,7 +224,14 @@ img.firstimg {
   line-height: 1.45;
 }
 
-@media (min-width:768px) {
+
+@media (min-width: 768px){
+	h1.articleheader {
+		font-size: font-size: 2.5rem;
+	}
+}
+
+@media (min-width:1499px) {
 	h1.articleheader {
 		font-size: 4rem;
 	}
@@ -304,6 +312,13 @@ figcaption {
   font-family: 'Nitti Grotesk';
 }
 
+.capt {
+	  padding: 0.5em;
+  width: 30%;
+  text-align: justify;
+  font-family: 'Nitti Grotesk';
+}
+
 .cont {
 	padding-top: 60px;
 	  width:100%
@@ -355,7 +370,7 @@ figcaption {
   
 }
 
-.webp .primero {
+.primero {
 	min-height: 30rem;
 position: relative;
 width: 100%;
@@ -365,10 +380,17 @@ padding-bottom: 8rem;
 background-size: cover;
 	overflow: hidden;
 	height: 100vh;
+}
+
+.webp .primero {
 	background-image: url(/assets/img/issue1/portrait.webp)
 }
 
 .no-webp .primero {
+	background-image: url(/assets/img/issue1/portrait.jpg)
+}
+
+.no-js .primero {
 	background-image: url(/assets/img/issue1/portrait.jpg)
 }
 
@@ -415,6 +437,15 @@ background-size: cover;
   width: 600px;
   transition: fill .4s ease;
   flex: 0 0 auto;
+}
+
+
+@namespace svg url(http://www.w3.org/2000/svg);
+/* Necessary to select only SVG <a> elements, and not also HTML’s.
+   See warning below */
+
+svg|a:link, svg|a:visited {
+  cursor: pointer;
 }
 
 .icon:hover {
@@ -767,10 +798,10 @@ font-family: 'Nitti Grotesk', sans-serif;
 img.firstimg {
 	max-width: 100%;
 }
-@media (min-width:992px) {
+@media (min-width:1160px) {
 	
 	img.firstimg {
-		width: 992px;
+		width: 992px!important;
 		height: auto;
 	}
 	
@@ -780,6 +811,8 @@ img.firstimg {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
+
+
  h1.title {
   font-size:72px
  }

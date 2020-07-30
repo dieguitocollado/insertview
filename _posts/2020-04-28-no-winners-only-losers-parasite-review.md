@@ -79,7 +79,6 @@ subjugates the compassionate.
 
 While it may be the case that the prevalence of issues such as social
 inequality and lack of social mobility propelled *Parasite* to
-international acclaim, the film shows us how easy is it is for a person
-- regardless of their background - to give in to the temptations of
+international acclaim, the film shows us how easy is it is for a person - regardless of their background - to give in to the temptations of
 greed, and the price we pay as a society for our indifference towards
 each other's suffering.

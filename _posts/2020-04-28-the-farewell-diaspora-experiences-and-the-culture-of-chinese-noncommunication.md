@@ -1,6 +1,5 @@
 ---
-title: "The Farewell, Diaspora Experiences, and the Culture of Chinese
-(Non)Communication"
+title: "‘The Farewell,’ Diaspora Experiences, and the Culture of Chinese (Non)Communication"
 author: "Xinyi Wang"
 layout: post
 date: 2020-04-28 02:40:48 +0000
